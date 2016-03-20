@@ -34,6 +34,7 @@ class TodoList
     	@items.each do | item |
     		item.print_item
     	end
+    	puts ""
     end
 end
 
@@ -56,7 +57,7 @@ class Item
 
 	# Print the task description and status
     def print_item
-    	puts @description
+    	print "#{@description} - "
     	if @completed
     		puts "Complete"
     	else
