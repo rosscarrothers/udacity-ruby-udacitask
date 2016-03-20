@@ -1,0 +1,23 @@
+commit 741ecb29da6a10ac683a1f4211b90f6194e15064
+Author: Ross Carrothers <ross.carrothers@gmail.com>
+Date:   Sat Mar 19 18:52:18 2016 -0700
+
+    Added new features, including text file with details
+
+commit e158ee7ae2bc0da33b1e95086440a2becb4bb527
+Author: Ross Carrothers <ross.carrothers@gmail.com>
+Date:   Sat Mar 19 18:38:33 2016 -0700
+
+    Finished code which creates a list and adds / deletes items as specified in instructions.
+
+commit 25861a889d479d005d5ede0e4de15883ab8465eb
+Author: Ross Carrothers <ross.carrothers@gmail.com>
+Date:   Sat Mar 19 18:26:10 2016 -0700
+
+    Renamed files, implemented list and item object
+
+commit 6c8b53e668be506b68cc6075e04497cd174a82d3
+Author: Ross Carrothers <ross.carrothers@gmail.com>
+Date:   Tue Mar 15 21:42:02 2016 -0700
+
+    Initial commit
