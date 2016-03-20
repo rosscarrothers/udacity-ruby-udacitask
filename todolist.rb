@@ -28,6 +28,28 @@ class TodoList
     	item.completed = !item.completed?
     end
 
+    # Set the status of an item in the list, given by index
+    def update_status_by_index(list_position, is_completed)
+    	if list_position < 0 || list_position > @items.size - 1
+    		puts "Unable to update item at position #{list_position}"
+    		return
+    	end
+
+    	item = @items.at(list_position)
+    	item.completed = is_completed
+    end
+
+    # Prints only the tasks which have not been completed
+    def print_unfinished_tasks
+    	puts @list_name
+    	@items.each do | item |
+    		if !item.completed?
+    			puts item.print_item
+    		end
+    	end
+    	puts ""
+    end
+
     # Print the list
     def print_list
     	puts @list_name
@@ -35,6 +57,11 @@ class TodoList
     		item.print_item
     	end
     	puts ""
+    end
+
+    # Clear the list
+    def clear_list
+    	@items.clear
     end
 end
 

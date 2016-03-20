@@ -1,0 +1,5 @@
+New features:
+
+- Created a function for clearing the todo list
+- Created a function for setting the status of an item in the list, given by index
+- Created a function which prints only the items in the list which are marked as incomplete
